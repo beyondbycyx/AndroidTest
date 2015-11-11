@@ -31,6 +31,7 @@ dependencies {
     // Set this dependency to build and run Espresso tests
     androidTestCompile 'com.android.support.test.espresso:espresso-core:2.2'
     // Set this dependency to build and run UI Automator tests
-   // androidTestCompile 'com.android.support.test.uiautomator:uiautomator-v18:2.1.1'
+   // androidTestCompile 'com.android.support.test.uiautomator:uiautomator-v16:2.1.1'
     compile files('libs/javax.annotation-api-1.2-sources.jar')
+
 }

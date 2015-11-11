@@ -33,12 +33,14 @@ public class EspressoTest extends ActivityInstrumentationTestCase2<ViewPerformAc
     }
 
     public void testChangeText() {
+        //获取某个View
         ViewInteraction viewFocus = Espresso.onView(ViewMatchers.withId(R.id.et));
-
+        //执行某个动作
         viewFocus.perform(ViewActions.clearText());
         viewFocus.perform(ViewActions.typeText("new"));
         TextView tv = (TextView) activity.findViewById(R.id.et);
-        EspressoTest.assertEquals("new", tv.getText());
+        //检查结果
+        EspressoTest.assertEquals("new", tv.getText()+"");
 
     }
 }
