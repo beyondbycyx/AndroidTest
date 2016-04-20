@@ -12,6 +12,7 @@ public class CalculatorUtils {
 
     public double divide(double x, double y) {
 
+       if (y == 0) throw new IllegalArgumentException("Dividor cannot be 0");
         return x/y;
     }
 
