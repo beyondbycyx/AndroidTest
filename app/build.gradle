@@ -33,11 +33,18 @@ dependencies {
     // Set this dependency to build and run Espresso tests
     androidTestCompile 'com.android.support.test.espresso:espresso-core:2.2'
     // Set this dependency to build and run UI Automator tests
-
     // androidTestCompile 'com.android.support.test.uiautomator:uiautomator-v16:2.1.1'
     compile files('libs/javax.annotation-api-1.2-sources.jar')
-
     //添加junit test
     testCompile 'junit:junit:4.12'
+
+    //robolectric 添加
+    testCompile "org.mockito:mockito-core:1.9.5"
+    testCompile "org.robolectric:robolectric:3.0"
+    testCompile 'org.robolectric:robolectric-annotations:3.0'
+    //robolectric针对support-v4的shadows
+    testCompile "org.robolectric:shadows-support-v4:3.0"
+    testCompile "com.jayway.awaitility:awaitility:1.7.0"
+
 
 }

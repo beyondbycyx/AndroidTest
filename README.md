@@ -94,7 +94,10 @@ public void testNextActivityWasLaunchedWithIntent() {
 
 
 
-##单元测试的地址：http://www.jianshu.com/p/03118c11c199
+###junit test,androidjunit test单元测试的地址：http://www.jianshu.com/p/03118c11c199
+
+###junit test :http://android.jobbole.com/82788/
+
  
 
 
