@@ -90,9 +90,12 @@ public void testNextActivityWasLaunchedWithIntent() {
     assertEquals("Payload is empty", LaunchActivity.STRING_PAYLOAD, payload);
 }
 ```
+<<<<<<< HEAD
 ##单元测试的地址：http://www.jianshu.com/p/03118c11c199
 
 
+=======
+>>>>>>> 6821203614cfc3ab51089bd1dd85f21a41829c9f
 
 
 
